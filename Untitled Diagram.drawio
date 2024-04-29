@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T08:42:37.731Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="kYa4Z6_WCUB_UiadzHxB" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T13:10:04.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="gkqD-MxYAmEAarBNJBK1" version="24.3.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1877" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -140,6 +140,18 @@
           <mxGeometry x="0.0302" relative="1" as="geometry">
             <mxPoint x="21" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TAMpFohP5WpvRMckGVKH-44" value="SQS" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="685" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TAMpFohP5WpvRMckGVKH-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="TAMpFohP5WpvRMckGVKH-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="350" as="sourcePoint" />
+            <mxPoint x="780" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAMpFohP5WpvRMckGVKH-46" value="use Lambda functions for all endpoints&lt;div&gt;&lt;ul&gt;&lt;li&gt;use infrastructure as a service to run the aws infra.so we have all codes documented and updated automatically&amp;nbsp;&lt;/li&gt;&lt;li&gt;create&amp;nbsp; a service inbetween the api and SP if we use the aws API&lt;/li&gt;&lt;li&gt;NestJs&lt;/li&gt;&lt;li&gt;dont make a direct interraction between CC and NestJs rather use a second queue to send data back to NestJs&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;COSTS&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;consider the aws cost between the two different methods&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-30" y="820" width="350" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
