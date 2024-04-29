@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T08:32:07.971Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="JE9vKY1vsQVWsJnxbDOm" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T08:40:21.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Ur7lwQvYG261rld3hoFh" version="24.3.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1877" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,9 +89,14 @@
             <mxPoint x="610" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TAMpFohP5WpvRMckGVKH-29" value="update running and&amp;nbsp;&lt;div&gt;when completed up date completed status&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TAMpFohP5WpvRMckGVKH-28">
+        <mxCell id="TAMpFohP5WpvRMckGVKH-29" value="update running&amp;nbsp;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TAMpFohP5WpvRMckGVKH-28">
           <mxGeometry x="-0.0353" y="2" relative="1" as="geometry">
             <mxPoint x="73" y="-35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAMpFohP5WpvRMckGVKH-39" value="Running" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TAMpFohP5WpvRMckGVKH-28">
+          <mxGeometry x="-0.8455" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TAMpFohP5WpvRMckGVKH-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="TAMpFohP5WpvRMckGVKH-25" target="TAMpFohP5WpvRMckGVKH-20">
@@ -116,6 +121,25 @@
         </mxCell>
         <mxCell id="TAMpFohP5WpvRMckGVKH-35" value="Lambda function" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TAMpFohP5WpvRMckGVKH-36" value="STATUS&lt;div&gt;&lt;ul&gt;&lt;li&gt;RTC status&lt;/li&gt;&lt;li&gt;CC status&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="670" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TAMpFohP5WpvRMckGVKH-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="TAMpFohP5WpvRMckGVKH-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="340" as="sourcePoint" />
+            <mxPoint x="730" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAMpFohP5WpvRMckGVKH-42" value="completed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TAMpFohP5WpvRMckGVKH-41">
+          <mxGeometry x="-0.8322" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TAMpFohP5WpvRMckGVKH-43" value="update completed&lt;div&gt;save video, trace and log files URL&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TAMpFohP5WpvRMckGVKH-41">
+          <mxGeometry x="0.0302" relative="1" as="geometry">
+            <mxPoint x="21" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
